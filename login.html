@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="h-full ">
+    <div class="grid grid-cols-1 lg:grid-cols-2 h-screen">
+      <div class="flex-1 flex flex-col justify-center items-center bg-white">
+        <div class="flex-1 flex flex-col justify-center items-center bg-white">
+          <h1 class="text-6xl lg:text-[100px] font-bold text-[#0E184C]">
+            FuFiNet
+          </h1>
+          <p class="mt-4 text-center text-2xl mx-20  text-gray-600">
+            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et"
+          </p>
+        </div>
+      </div>
+      <div
+        class="flex-1 flex flex-col justify-around items-center bg-[#5C9ACD]  p-8"
+      >
+        <div class="flex flex-col justify-center items-center">
+          <h2 class="text-xl font-semibold text-white">Welcome to</h2>
+          <h1 class="text-6xl lg:text-[100px] font-bold text-white mt-2">
+            FuFiNet
+          </h1>
+          <p class="text-white mt-1 mb-2 text-xl">
+            Please enter your login details
+          </p>
+        </div>
+        <form class="w-full max-w-xl">
+          <div class="mb-4">
+            <label for="email" class="block text-white text-md mb-1">
+              Email
+            </label>
+            <input
+              id="email"
+              type="email"
+              placeholder="Enter Email"
+              class="w-full px-4 py-2 text-md text-gray-700 bg-white rounded-xl focus:outline-none"
+            />
+          </div>
+          <div class="mb-4">
+            <label for="password" class="block text-white text-md mb-1">
+              Password
+            </label>
+            <input
+              id="password"
+              type="password"
+              placeholder="Create Password"
+              class="w-full px-4 py-2 text-md text-gray-700 bg-white rounded-xl focus:outline-none"
+            />
+          </div>
+          <button
+            class="w-full bg-blue-900 text-white py-2  rounded-full text-xl mt-3"
+          >
+            Login
+          </button>
+        </form>
+        <div
+          class="flex justify-between items-center w-full max-w-sm mt-2 text-white text-xl"
+        >
+          <a href="#" class="hover:underline"> Terms & Conditions </a>
+          <span>|</span>
+          <a href="#" class="hover:underline text-blue-900"> Disclaimer </a>
+        </div>
+        <p class="text-white text-xl mt-8">
+          © Copyright Tecnostac Systems Private Limited
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
